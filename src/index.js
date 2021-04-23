@@ -190,11 +190,12 @@ function App(){
     <div className = "container">
       <div>
         <h2>{year}</h2>
-        <button onClick = {()=> setYear(year +1)}>
-          Öka året!
-        </button>
+        
         <button onClick = {()=> setYear(year -1)}>
           Minska året!
+        </button>
+        <button onClick = {()=> setYear(year +1)}>
+          Öka året!
         </button>
         <h1>Da boss: {manager}</h1>
         <button onClick = {()=> setManager("Carlos")}>
